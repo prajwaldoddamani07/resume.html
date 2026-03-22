@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Styled Profile</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 70%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: 10px auto;
+            border-radius: 50%;
+            border: 3px solid #3498db;
+        }
+
+        p {
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        ul, ol {
+            margin-left: 40px;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #e74c3c;
+        }
+
+        .section {
+            margin-top: 20px;
+            padding: 10px;
+            border-top: 2px solid #ddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Welcome to My Profile</h1>
+        <h2>Prajwal 👋</h2>
+
+        <img src="https://via.placeholder.com/150" alt="My Photo" width="150">
+
+        <div class="section">
+            <h3>About Me</h3>
+            <p>
+                I am a Computer Science Engineering student passionate about AI, 
+                technology, and building innovative projects.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>My Skills</h3>
+            <ul>
+                <li>Python Programming</li>
+                <li>Web Development</li>
+                <li>AI & Machine Learning</li>
+                <li>Problem Solving</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>My Hobbies</h3>
+            <ol>
+                <li>Making YouTube Videos</li>
+                <li>Traveling</li>
+                <li>Learning New Technologies</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <h3>Connect with Me</h3>
+            <p>
+                <a href="#">LinkedIn</a><br>
+                <a href="#">GitHub</a><br>
+                <a href="#">YouTube</a>
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
